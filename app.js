@@ -4,16 +4,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+  /* MÓDULO dotenv */
+  const dotenv = require('dotenv');
 
-/* MÓDULO dotenv */
-const dotenv = require('dotenv');
-
-/* CARGA DE DATOS DE CONFIGURACION EN MEMORIA */
-dotenv.config();
-
-var router = express.Router();
-
-let crypto = require('crypto');
+  /* CARGA DE DATOS DE CONFIGURACION EN MEMORIA */
+  dotenv.config();
 
 
 

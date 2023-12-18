@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+
 let crypto = require('crypto');
 
 /* Referencia a los modelos */
@@ -46,8 +47,7 @@ router.post('/register', async (req, res,next) => {
 })
 
 
-var express = require('express');
-var router = express.Router();
+
 
 /* GET users listing. */
 router.get('/', async function(req, res, next) {
