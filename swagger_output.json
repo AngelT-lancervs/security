@@ -11,6 +11,16 @@
     "http"
   ],
   "paths": {
+    "/users": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
+          }
+        }
+      }
+    },
     "/users/register": {
       "post": {
         "description": "",
@@ -37,16 +47,6 @@
         "responses": {
           "400": {
             "description": "Bad Request"
-          }
-        }
-      }
-    },
-    "/": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
           }
         }
       }
